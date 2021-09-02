@@ -4,9 +4,9 @@
   "main": "Main-ActionCenter.xaml",
   "dependencies": {
     "Newtonsoft.Json": "[11.0.2]",
-    "UiPath.DocumentUnderstanding.ML.Activities": "[1.7.0]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.8.0-preview]",
     "UiPath.Excel.Activities": "[2.10.4]",
-    "UiPath.IntelligentOCR.Activities": "[4.13.2]",
+    "UiPath.IntelligentOCR.Activities": "[4.17.0-preview]",
     "UiPath.Mail.Activities": "[1.10.5]",
     "UiPath.PDF.Activities": "[3.4.0]",
     "UiPath.System.Activities": "[21.4.1]",
@@ -17,7 +17,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.4.4.0",
-  "projectVersion": "1.0.5",
+  "projectVersion": "1.0.7",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,

@@ -207,8 +207,8 @@
       },
       "Fields": [
         {
-          "FieldId": "Accounting.Receipt.Receipt.store",
-          "FieldName": "store",
+          "FieldId": "Accounting.Receipt.Receipt.VendorName",
+          "FieldName": "Vendor Name",
           "IsMultiValue": false,
           "Type": "Text",
           "DeriveFieldsFormat": "",
@@ -222,8 +222,23 @@
           ]
         },
         {
-          "FieldId": "Accounting.Receipt.Receipt.date",
-          "FieldName": "date",
+          "FieldId": "Accounting.Receipt.Receipt.VendorAddress",
+          "FieldName": "Vendor Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.Receipt.Receipt.Date",
+          "FieldName": "Date",
           "IsMultiValue": false,
           "Type": "Date",
           "DeriveFieldsFormat": "",
@@ -237,15 +252,30 @@
           ]
         },
         {
-          "FieldId": "Accounting.Receipt.Receipt.items",
-          "FieldName": "items",
+          "FieldId": "Accounting.Receipt.Receipt.Total",
+          "FieldName": "Total",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.Receipt.Receipt.Items",
+          "FieldName": "Items",
           "IsMultiValue": false,
           "Type": "Table",
           "DeriveFieldsFormat": "",
           "Components": [
             {
-              "FieldId": "Accounting.Receipt.Receipt.items.item-name",
-              "FieldName": "item-name",
+              "FieldId": "Accounting.Receipt.Receipt.Items.Description",
+              "FieldName": "Description",
               "IsMultiValue": false,
               "Type": "Text",
               "DeriveFieldsFormat": "",
@@ -259,8 +289,8 @@
               ]
             },
             {
-              "FieldId": "Accounting.Receipt.Receipt.items.quantity",
-              "FieldName": "quantity",
+              "FieldId": "Accounting.Receipt.Receipt.Items.Quantity",
+              "FieldName": "Quantity",
               "IsMultiValue": false,
               "Type": "Number",
               "DeriveFieldsFormat": "",
@@ -274,10 +304,25 @@
               ]
             },
             {
-              "FieldId": "Accounting.Receipt.Receipt.items.price",
-              "FieldName": "price",
+              "FieldId": "Accounting.Receipt.Receipt.Items.UnitPrice",
+              "FieldName": "Unit Price",
               "IsMultiValue": false,
-              "Type": "Text",
+              "Type": "Number",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [
+                {
+                  "Key": "RequiresReference",
+                  "Value": "true"
+                }
+              ]
+            },
+            {
+              "FieldId": "Accounting.Receipt.Receipt.Items.LineAmount",
+              "FieldName": "Line Amount",
+              "IsMultiValue": false,
+              "Type": "Number",
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
@@ -289,21 +334,6 @@
               ]
             }
           ],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
-        },
-        {
-          "FieldId": "Accounting.Receipt.Receipt.total-paid",
-          "FieldName": "total-paid",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
           "SetValues": [],
           "Metadata": [
             {
