@@ -2,16 +2,6 @@
   "Packages": [
     {
       "Package": {
-        "Id": "Newtonsoft.Json",
-        "Version": "11.0.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll"
-      ],
-      "Path": "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json\\11.0.2"
-    },
-    {
-      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.10.4"
       },
@@ -53,7 +43,7 @@
         "C:\\Users\\rayha\\.nuget\\packages\\microsoft.extensions.filesystemglobbing/5.0.0\\lib/net461/Microsoft.Extensions.FileSystemGlobbing.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\microsoft.identity.client/4.14.0\\lib/net45/Microsoft.Identity.Client.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\mimekit/2.10.0\\lib/net46/MimeKit.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\portable.bouncycastle/1.8.8\\lib/net40/BouncyCastle.Crypto.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
@@ -66,12 +56,86 @@
     },
     {
       "Package": {
+        "Id": "UiPath.OmniPage.Activities",
+        "Version": "1.7.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.ocr.contracts/2.9.0-preview\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities/1.7.1\\lib/net461/UiPath.OmniPage.Activities.Design.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities/1.7.1\\lib/net461/UiPath.OmniPage.Activities.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities/1.7.1\\lib/net461/UiPath.Vision.OmniPage.Core.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities/1.7.1\\lib/net461/UiPath.Vision.OmniPage.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/AppHelper.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/AppProductConfig.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/AppUtils.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Bnt.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/CRX.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Defaults.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/FireWrx2.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/FireWrx3.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/FireWrx4.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/FireWrx5.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/FireWrx6.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Firewrx.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Formatter.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/ICDLLW32.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/ICHUNW32.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/IF_PNG.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/KernelAPI.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/LEditor.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/LecsoMgr.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/MiddleEarth.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Mor.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Mor2.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Mor3.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Mor4.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Mor5.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Mor6.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/MorIF.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Nuance.OmniPage.CSDK.ArgTypes.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Nuance.OmniPage.CSDK.CAPI.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Nuance.OmniPage.CSDK.Objects.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/PreRendering.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/RecAPIPlus.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/RecDiag.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/RecPDFNet.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Rendering.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/Rendering2.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/SPDFLib.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/SkinnedClasses.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/SkinnedWindows.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/UiPath.OmniPage.Bundle.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/atm2lll.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/jp2k_kdu_apps_vnew.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/kdu_vnewR.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/msvcp140.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/pccext.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/pccext2.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/pccext3.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/pccext4.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/pccext5.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/pccext6.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/rndsdawg.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/rndsinso.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/vcruntime140.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/xocr.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/xocr2.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/xocr3.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/xocr4.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/xocr5.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/xocr6.dll"
+      ],
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities\\1.7.1"
+    },
+    {
+      "Package": {
         "Id": "UiPath.PDF.Activities",
         "Version": "3.4.0"
       },
       "Assemblies": [
         "C:\\Users\\rayha\\.nuget\\packages\\bitmiracle.docotic.pdf/7.5.11645\\lib/net46/BitMiracle.Docotic.Pdf.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.ocr.contracts/2.9.0-preview\\lib/net461/UiPath.OCR.Contracts.dll",
@@ -110,7 +174,7 @@
         "C:\\Users\\rayha\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
@@ -140,7 +204,7 @@
         "Version": "21.4.4"
       },
       "Assemblies": [
-        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
@@ -178,7 +242,7 @@
       },
       "Assemblies": [
         "C:\\Users\\rayha\\.nuget\\packages\\avalonedit/6.0.1\\lib/net45/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\restsharp/106.3.1\\lib/net452/RestSharp.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.webapi.activities/1.7.0\\lib/net461/UiPath.Web.Activities.Design.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.webapi.activities/1.7.0\\lib/net461/UiPath.Web.Activities.dll",
@@ -188,13 +252,47 @@
     },
     {
       "Package": {
+        "Id": "Newtonsoft.Json",
+        "Version": "12.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll"
+      ],
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json\\12.0.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Testing.Activities",
+        "Version": "1.3.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\rayha\\.nuget\\packages\\automapper/9.0.0\\lib/net461/AutoMapper.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\microsoft.xaml.behaviors.wpf/1.1.3\\lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities/1.3.3\\lib/net461/UiPath.Orchestrator.Client.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities/1.3.3\\lib/net461/UiPath.Testing.Activities.Design.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities/1.3.3\\lib/net461/UiPath.Testing.Activities.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities/1.3.3\\lib/net461/UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities/1.3.3\\lib/net461/UiPath.Testing.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities/1.3.3\\lib/net461/UiPath.Web.Client.dll"
+      ],
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities\\1.3.3"
+    },
+    {
+      "Package": {
         "Id": "UiPath.DocumentUnderstanding.ML.Activities",
         "Version": "1.8.0-preview"
       },
       "Assemblies": [
         "C:\\Users\\rayha\\.nuget\\packages\\bitmiracle.docotic.pdf/7.5.11645\\lib/net46/BitMiracle.Docotic.Pdf.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\polly/7.1.0\\lib/netstandard2.0/Polly.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.collections.immutable/1.5.0\\lib/netstandard2.0/System.Collections.Immutable.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
@@ -226,8 +324,8 @@
         "C:\\Users\\rayha\\.nuget\\packages\\ivanakcheurov.ntextcat.lib/0.2.1.1\\lib/net40/IvanAkcheurov.NTextCat.Lib.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\mathnet.numerics/4.5.1\\lib/net461/MathNet.Numerics.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\microsoft.xaml.behaviors.wpf/1.0.1\\lib/net45/Microsoft.Xaml.Behaviors.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\microsoft.xaml.behaviors.wpf/1.1.3\\lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\polly/7.1.0\\lib/netstandard2.0/Polly.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.collections.immutable/1.5.0\\lib/netstandard2.0/System.Collections.Immutable.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
@@ -237,28 +335,28 @@
         "C:\\Users\\rayha\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\tinycsvparser/2.5.2\\lib/net45/TinyCsvParser.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/CefSharp.BrowserSubprocess.Core.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/CefSharp.Core.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/CefSharp.Core.Runtime.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/CefSharp.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/CefSharp.Core.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/CefSharp.Wpf.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/CefSharp.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/UiPath.CefSharpBundle.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/chrome_elf.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/d3dcompiler_47.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/libcef.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/libEGL.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/libGLESv2.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/libcef.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/msvcp140.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/UiPath.CefSharpBundle.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/vcruntime140.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/swiftshader/libEGL.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/swiftshader/libGLESv2.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle/1.5.0-preview\\lib/net452/vcruntime140.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.documentprocessing.contracts/1.10.2-preview\\lib/net461/UiPath.DocumentProcessing.Contracts.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.DocumentUnderstanding.Contracts.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.DocumentUnderstanding.Persistence.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.IntelligentOCR.Activities.Design.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.IntelligentOCR.Activities.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.IntelligentOCR.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.ClassificationStation.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.ClassificationStation.Host.Local.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.ClassificationStation.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.Data.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.Digitization.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.DocumentClassification.dll",
@@ -271,20 +369,39 @@
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.PDF.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.PositionBasedExtraction.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.TableProcessing.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.TaxonomyManager.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.TaxonomyManager.Host.Local.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.TaxonomyManager.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.Telemetry.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.Utils.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.ValidationStation.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.ValidationStation.Host.Local.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.ValidationStation.Integration.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.ValidationStation.ValueParsing.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.ValidationStation.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities/4.17.0-preview\\lib/net461/UiPath.SmartData.WPF.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.ocr.contracts/2.9.0-preview\\lib/net461/UiPath.OCR.Contracts.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.wordstonumbers/1.0.0\\lib/netstandard2.0/Numsense.dll"
       ],
       "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Persistence.Activities",
+        "Version": "1.2.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\rayha\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.formactivitylibrary.contracts/1.1.1\\lib/net461/UiPath.Form.ActivityLibrary.Contracts.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.persistence.activities/1.2.2\\lib/net461/UiPath.Orchestrator.Service.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.persistence.activities/1.2.2\\lib/net461/UiPath.Persistence.Activities.Design.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.persistence.activities/1.2.2\\lib/net461/UiPath.Persistence.Activities.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.persistence.activities/1.2.2\\lib/net461/UiPath.Persistence.Orchestrator.Client.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.telemetry.client/1.3.18\\lib/net461/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.persistence.activities\\1.2.2"
     }
   ],
   "Conflicts": [],
@@ -349,6 +466,11 @@
           "Item2": "[2.2.5, )"
         }
       ]
+    },
+    "AutoMapper": {
+      "Id": "AutoMapper",
+      "Version": "9.0.0",
+      "Dependencies": []
     },
     "AvalonEdit": {
       "Id": "AvalonEdit",
@@ -795,7 +917,7 @@
     },
     "Microsoft.Xaml.Behaviors.Wpf": {
       "Id": "Microsoft.Xaml.Behaviors.Wpf",
-      "Version": "1.0.1",
+      "Version": "1.1.3",
       "Dependencies": []
     },
     "MimeKit": {
@@ -818,7 +940,7 @@
     },
     "Newtonsoft.Json": {
       "Id": "Newtonsoft.Json",
-      "Version": "11.0.2",
+      "Version": "12.0.3",
       "Dependencies": []
     },
     "NPOI": {
@@ -1099,6 +1221,11 @@
         }
       ]
     },
+    "UiPath.FormActivityLibrary.Contracts": {
+      "Id": "UiPath.FormActivityLibrary.Contracts",
+      "Version": "1.1.1",
+      "Dependencies": []
+    },
     "UiPath.IntelligentOCR.Activities": {
       "Id": "UiPath.IntelligentOCR.Activities",
       "Version": "4.17.0-preview",
@@ -1242,6 +1369,29 @@
       "Version": "2.9.0-preview",
       "Dependencies": []
     },
+    "UiPath.OmniPage.Activities": {
+      "Id": "UiPath.OmniPage.Activities",
+      "Version": "1.7.1",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.7.3, )"
+        },
+        {
+          "Item1": "UiPath.OmniPage.Bundle",
+          "Item2": "[1.0.2, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        }
+      ]
+    },
+    "UiPath.OmniPage.Bundle": {
+      "Id": "UiPath.OmniPage.Bundle",
+      "Version": "1.0.2",
+      "Dependencies": []
+    },
     "UiPath.PDF.Activities": {
       "Id": "UiPath.PDF.Activities",
       "Version": "3.4.0",
@@ -1261,6 +1411,32 @@
         {
           "Item1": "BitMiracle.Docotic.Pdf",
           "Item2": "[7.5.11645, )"
+        }
+      ]
+    },
+    "UiPath.Persistence.Activities": {
+      "Id": "UiPath.Persistence.Activities",
+      "Version": "1.2.2",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "UiPath.FormActivityLibrary.Contracts",
+          "Item2": "[1.1.1, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.20, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.4.0, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.3.18, )"
         }
       ]
     },
@@ -1335,6 +1511,36 @@
         {
           "Item1": "System.Threading.Tasks.Dataflow",
           "Item2": "[5.0.0, )"
+        }
+      ]
+    },
+    "UiPath.Testing.Activities": {
+      "Id": "UiPath.Testing.Activities",
+      "Version": "1.3.3",
+      "Dependencies": [
+        {
+          "Item1": "AutoMapper",
+          "Item2": "[9.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.21, )"
+        },
+        {
+          "Item1": "Microsoft.Xaml.Behaviors.Wpf",
+          "Item2": "[1.1.3, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[12.0.3, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[21.4.0, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.3.18, )"
         }
       ]
     },
@@ -1469,6 +1675,16 @@
         "C:\\Users\\rayha\\.nuget\\packages\\aforge.neuro\\2.2.5\\lib\\AForge.Neuro.dll"
       ],
       "Path": "C:\\Users\\rayha\\.nuget\\packages\\aforge.neuro\\2.2.5"
+    },
+    {
+      "Package": {
+        "Id": "AutoMapper",
+        "Version": "9.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\rayha\\.nuget\\packages\\automapper\\9.0.0\\lib\\net461\\AutoMapper.dll"
+      ],
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\automapper\\9.0.0"
     },
     {
       "Package": {
@@ -1878,12 +2094,12 @@
     {
       "Package": {
         "Id": "Microsoft.Xaml.Behaviors.Wpf",
-        "Version": "1.0.1"
+        "Version": "1.1.3"
       },
       "Assemblies": [
-        "C:\\Users\\rayha\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.0.1\\lib\\net45\\Microsoft.Xaml.Behaviors.dll"
+        "C:\\Users\\rayha\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.3\\lib\\net45\\Microsoft.Xaml.Behaviors.dll"
       ],
-      "Path": "C:\\Users\\rayha\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.0.1"
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.3"
     },
     {
       "Package": {
@@ -1898,12 +2114,12 @@
     {
       "Package": {
         "Id": "Newtonsoft.Json",
-        "Version": "11.0.2"
+        "Version": "12.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib\\net45\\Newtonsoft.Json.dll"
+        "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json\\12.0.3\\lib\\net45\\Newtonsoft.Json.dll"
       ],
-      "Path": "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json\\11.0.2"
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\newtonsoft.json\\12.0.3"
     },
     {
       "Package": {
@@ -2154,10 +2370,10 @@
         "Version": "1.5.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle\\1.5.0-preview\\lib\\net452\\CefSharp.Core.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle\\1.5.0-preview\\lib\\net452\\CefSharp.Core.Runtime.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle\\1.5.0-preview\\lib\\net452\\CefSharp.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle\\1.5.0-preview\\lib\\net452\\CefSharp.Wpf.dll"
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle\\1.5.0-preview\\lib\\net452\\CefSharp.Core.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle\\1.5.0-preview\\lib\\net452\\CefSharp.Wpf.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle\\1.5.0-preview\\lib\\net452\\CefSharp.dll"
       ],
       "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.cefsharpbundle\\1.5.0-preview"
     },
@@ -2200,6 +2416,16 @@
     },
     {
       "Package": {
+        "Id": "UiPath.FormActivityLibrary.Contracts",
+        "Version": "1.1.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.1.1\\lib\\net461\\UiPath.Form.ActivityLibrary.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.1.1"
+    },
+    {
+      "Package": {
         "Id": "UiPath.IntelligentOCR.Activities",
         "Version": "4.17.0-preview"
       },
@@ -2209,8 +2435,8 @@
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.IntelligentOCR.Activities.Design.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.IntelligentOCR.Activities.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.IntelligentOCR.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.ClassificationStation.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.ClassificationStation.Host.Local.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.ClassificationStation.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.Data.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.Digitization.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.DocumentClassification.dll",
@@ -2222,17 +2448,17 @@
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.OutOfProcessUi.Common.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.OutOfProcessUi.Host.WCF.exe",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.PDF.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.PositionBasedExtraction.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.PositionBasedExtraction.TemplateManager.exe",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.PositionBasedExtraction.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.TableProcessing.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.TaxonomyManager.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.TaxonomyManager.Host.Local.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.TaxonomyManager.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.Telemetry.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.Utils.dll",
-        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.ValidationStation.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.ValidationStation.Host.Local.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.ValidationStation.Integration.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.ValidationStation.ValueParsing.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.ValidationStation.dll",
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview\\lib\\net461\\UiPath.SmartData.WPF.dll"
       ],
       "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.intelligentocr.activities\\4.17.0-preview"
@@ -2274,6 +2500,32 @@
     },
     {
       "Package": {
+        "Id": "UiPath.OmniPage.Activities",
+        "Version": "1.7.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities\\1.7.1\\lib\\net461\\UiPath.OmniPage.Activities.Design.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities\\1.7.1\\lib\\net461\\UiPath.OmniPage.Activities.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities\\1.7.1\\lib\\net461\\UiPath.OmniPage.Host32.exe",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities\\1.7.1\\lib\\net461\\UiPath.Vision.OmniPage.Core.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities\\1.7.1\\lib\\net461\\UiPath.Vision.OmniPage.dll"
+      ],
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.activities\\1.7.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OmniPage.Bundle",
+        "Version": "1.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle\\1.0.2\\lib\\net452\\Nuance.OmniPage.CSDK.ArgTypes.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle\\1.0.2\\lib\\net452\\Nuance.OmniPage.CSDK.CAPI.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle\\1.0.2\\lib\\net452\\Nuance.OmniPage.CSDK.Objects.dll"
+      ],
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.omnipage.bundle\\1.0.2"
+    },
+    {
+      "Package": {
         "Id": "UiPath.PDF.Activities",
         "Version": "3.4.0"
       },
@@ -2284,6 +2536,19 @@
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.pdf.activities\\3.4.0\\lib\\net461\\UiPath.PDF.dll"
       ],
       "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.pdf.activities\\3.4.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Persistence.Activities",
+        "Version": "1.2.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.persistence.activities\\1.2.2\\lib\\net461\\UiPath.Orchestrator.Service.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.persistence.activities\\1.2.2\\lib\\net461\\UiPath.Persistence.Activities.Design.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.persistence.activities\\1.2.2\\lib\\net461\\UiPath.Persistence.Activities.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.persistence.activities\\1.2.2\\lib\\net461\\UiPath.Persistence.Orchestrator.Client.dll"
+      ],
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.persistence.activities\\1.2.2"
     },
     {
       "Package": {
@@ -2316,6 +2581,21 @@
         "C:\\Users\\rayha\\.nuget\\packages\\uipath.telemetry.client\\1.3.18\\lib\\net461\\TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.telemetry.client\\1.3.18"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Testing.Activities",
+        "Version": "1.3.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities\\1.3.3\\lib\\net461\\UiPath.Orchestrator.Client.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities\\1.3.3\\lib\\net461\\UiPath.Testing.Activities.Design.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities\\1.3.3\\lib\\net461\\UiPath.Testing.Activities.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities\\1.3.3\\lib\\net461\\UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities\\1.3.3\\lib\\net461\\UiPath.Testing.dll",
+        "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities\\1.3.3\\lib\\net461\\UiPath.Web.Client.dll"
+      ],
+      "Path": "C:\\Users\\rayha\\.nuget\\packages\\uipath.testing.activities\\1.3.3"
     },
     {
       "Package": {

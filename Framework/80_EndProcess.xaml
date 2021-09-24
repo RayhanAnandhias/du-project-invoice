@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>769.6,776</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>780,931.2</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>_80_EndProcess_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -72,15 +72,15 @@
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Post-export &amp; Process Cleanup&#xA;&#xA;Post-export - any logic that must be executed after data export belongs here." DisplayName="EndProcess" sap:VirtualizedContainerService.HintSize="425.6,711.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Post-export &amp; Process Cleanup&#xA;&#xA;Post-export - any logic that must be executed after data export belongs here." DisplayName="EndProcess" sap:VirtualizedContainerService.HintSize="502.4,866.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message - Start End Process" sap:VirtualizedContainerService.HintSize="384,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[in_Config(&quot;LogMessage_EndProcessStart&quot;) + Environment.NewLine + in_Config(&quot;logKey&quot;)]" />
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SetTransactionStatus - Success" sap:VirtualizedContainerService.HintSize="384,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Framework\ReusableWorkflows\SetTransactionStatus.xaml">
+    <ui:LogMessage DisplayName="Log Message - Start End Process" sap:VirtualizedContainerService.HintSize="460.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[in_Config(&quot;LogMessage_EndProcessStart&quot;) + Environment.NewLine + in_Config(&quot;logKey&quot;)]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SetTransactionStatus - Success" sap:VirtualizedContainerService.HintSize="460.8,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Framework\ReusableWorkflows\SetTransactionStatus.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="ui:QueueItem" x:Key="in_TransactionItem">[in_TransactionItem]</InArgument>
         <InArgument x:TypeArguments="s:Exception" x:Key="in_Exception" />
@@ -89,7 +89,18 @@
         <InArgument x:TypeArguments="x:TimeSpan" x:Key="in_RetryInterval">[in_RetryInterval]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:MoveFile ContinueOnError="{x:Null}" Destination="[in_Config(&quot;CompletedDocument&quot;)]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="384,160" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="False" Path="[in_TargetDocument]" />
-    <ui:Comment DisplayName="Comment - Custom Code EndProcess" sap:VirtualizedContainerService.HintSize="384,56" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Custom code belongs here" />
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="460.8,331.2" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="425.6,252.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MoveFile ContinueOnError="{x:Null}" Destination="[in_Config(&quot;CompletedDocument&quot;)]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="384,160" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="False" Path="[in_TargetDocument]" />
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+    <ui:Comment DisplayName="Comment - Custom Code EndProcess" sap:VirtualizedContainerService.HintSize="460.8,56" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Custom code belongs here" />
   </Sequence>
 </Activity>

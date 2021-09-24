@@ -10,7 +10,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>769.6,1236</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>714.4,1236</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>_20_Digitize_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="70">
@@ -50,6 +50,7 @@
       <x:String>System.ComponentModel</x:String>
       <x:String>System.Xml.Serialization</x:String>
       <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+      <x:String>UiPath.OmniPage.Activities</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -91,6 +92,7 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
@@ -113,7 +115,7 @@
                 <ActivityFunc.Argument>
                   <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
                 </ActivityFunc.Argument>
-                <p2:UiPathDocumentOCR Output="{x:Null}" Text="{x:Null}" ApiKey="[in_Config(&quot;ApiKey&quot;)]" ComputeSkewAngle="False" DisplayName="UiPath Document OCR" Endpoint="[in_Config(&quot;UiPathOcrEndpoint&quot;)]" ExtractWords="True" sap:VirtualizedContainerService.HintSize="312,22.4" sap2010:WorkflowViewState.IdRef="UiPathDocumentOCR_2" Image="[Image]" Language="auto" Profile="None" Scale="1" />
+                <p2:UiPathDocumentOCR Output="{x:Null}" Text="{x:Null}" ApiKey="[in_Config(&quot;ApiKey&quot;)]" ComputeSkewAngle="False" DisplayName="UiPath Document OCR" Endpoint="[in_Config(&quot;UiPathOcrEndpoint&quot;)]" ExtractWords="True" sap:VirtualizedContainerService.HintSize="312,22.4" sap2010:WorkflowViewState.IdRef="UiPathDocumentOCR_3" Image="[Image]" Language="auto" Profile="None" Scale="1" />
               </ActivityFunc>
             </p1:DigitizeDocument.OCREngine>
           </p1:DigitizeDocument>

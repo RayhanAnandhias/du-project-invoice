@@ -6,7 +6,7 @@
       "Group": "Accounting",
       "Category": "Incoming",
       "Name": "Invoices",
-      "OptionalUniqueIdentifier": null,
+      "OptionalUniqueIdentifier": "",
       "TypeField": {
         "FieldId": "Accounting.Incoming.Invoices.DocumentType",
         "FieldName": "Document Type"
@@ -20,12 +20,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Incoming.Invoices.VendorAddress",
@@ -35,12 +30,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Incoming.Invoices.BillingName",
@@ -50,12 +40,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Incoming.Invoices.BillingAddress",
@@ -65,12 +50,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Incoming.Invoices.InvoiceNo",
@@ -80,12 +60,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Incoming.Invoices.InvoiceDate",
@@ -95,12 +70,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Incoming.Invoices.Total",
@@ -110,12 +80,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Incoming.Invoices.Items",
@@ -132,12 +97,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "Accounting.Incoming.Invoices.Items.Quantity",
@@ -147,12 +107,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "Accounting.Incoming.Invoices.Items.UnitPrice",
@@ -162,12 +117,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "Accounting.Incoming.Invoices.Items.Amount",
@@ -177,21 +127,11 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             }
           ],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         }
       ]
     },
@@ -200,7 +140,7 @@
       "Group": "Accounting",
       "Category": "Receipt",
       "Name": "Receipt",
-      "OptionalUniqueIdentifier": null,
+      "OptionalUniqueIdentifier": "",
       "TypeField": {
         "FieldId": "Accounting.Receipt.Receipt.DocumentType",
         "FieldName": "Document Type"
@@ -214,12 +154,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Receipt.Receipt.VendorAddress",
@@ -229,12 +164,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Receipt.Receipt.Date",
@@ -244,12 +174,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Receipt.Receipt.Total",
@@ -259,12 +184,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "Accounting.Receipt.Receipt.Items",
@@ -281,12 +201,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "Accounting.Receipt.Receipt.Items.Quantity",
@@ -296,12 +211,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "Accounting.Receipt.Receipt.Items.UnitPrice",
@@ -311,12 +221,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "Accounting.Receipt.Receipt.Items.LineAmount",
@@ -326,14 +231,947 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             }
           ],
+          "SetValues": [],
+          "Metadata": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Accounting.LetterCredit.LetterCredit",
+      "Group": "Accounting",
+      "Category": "LetterCredit",
+      "Name": "LetterCredit",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.TujuanSurat",
+          "FieldName": "To",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.CabangBank",
+          "FieldName": "Branch",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.RegisterNo",
+          "FieldName": "Register No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.LCSKBDNNo",
+          "FieldName": "LC/SKBDN No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.DateofIssue",
+          "FieldName": "Date of Issue",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ReceiverBankName",
+          "FieldName": "Receiver Bank: Bank Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ReceiverBankAddress",
+          "FieldName": "Receiver Bank: Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Swiftcode",
+          "FieldName": "Receiver Bank: SWIFTCODE",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Irrevocable",
+          "FieldName": "Form of Documentary Credit: Irrevocable ",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.IrrevocableTransferrable",
+          "FieldName": "Form of Documentary Credit: Irrevocable Transferrable",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicableRulesUniformCustomandPracticeforDocumentaryCreditLatestVersion(forLC)",
+          "FieldName": "Applicable Rules: Uniform Custom and Practice for Documentary Credit Latest Version (for LC)",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicableRulesPeraturanBankIndonesiaNo56PBI2003danperubahannya(forSKBDN)",
+          "FieldName": "Applicable Rules: Peraturan Bank Indonesia No. 5/6/PBI/2003 dan perubahannya (for SKBDN)",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicableRulesLainnyaOthers",
+          "FieldName": "Applicable Rules: Lainnya/Others",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicableRulesLainnyaOthersValue",
+          "FieldName": "Applicable Rules: Lainnya/Others Value",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.DateandPlaceofExpiryDateofExpiry",
+          "FieldName": "Date and Place of Expiry: Date of Expiry",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.DateandPlaceofExpiryatBeneficiary'sCountry",
+          "FieldName": "Date and Place of Expiry: at Beneficiary's Country",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.DateandPlaceofExpiryatBRICounter",
+          "FieldName": "Date and Place of Expiry: at BRI Counter",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicantName",
+          "FieldName": "Applicant: Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicantAddress",
+          "FieldName": "Applicant: Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicantContactPerson",
+          "FieldName": "Applicant: Contact Person",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Applicanttelp",
+          "FieldName": "Applicant: telp",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.BeneficiaryName",
+          "FieldName": "Beneficiary: Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.BeneficiaryAddress",
+          "FieldName": "Beneficiary: Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&ToleranceCurrency",
+          "FieldName": "Currency, Amount & Tolerance: Currency",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&ToleranceAmount",
+          "FieldName": "Currency, Amount & Tolerance: Amount",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&Toleranceamountinwords",
+          "FieldName": "Currency, Amount & Tolerance: amount in words",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&Toleranceamounttolerance",
+          "FieldName": "Currency, Amount & Tolerance: amount tolerance",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&ToleranceNOTEXCEEDING",
+          "FieldName": "Currency, Amount & Tolerance: NOT EXCEEDING",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&Toleranceinwords",
+          "FieldName": "Currency, Amount & Tolerance: in words",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Availibilitybank",
+          "FieldName": "Availibility: bank",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Availibilityanybank",
+          "FieldName": "Availibility: any bank",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Availibilityatsightbypayment",
+          "FieldName": "Availibility: at sight by payment",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Availibilitybynegotiation",
+          "FieldName": "Availibility: by negotiation",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Availibilityattermbynegotiation",
+          "FieldName": "Availibility: at term by negotiation",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Availibilitybyacceptance",
+          "FieldName": "Availibility: by acceptance",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Availibilitytermsspecify",
+          "FieldName": "Availibility: terms specify",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.DraweeISSUINGBANK",
+          "FieldName": "Drawee: ISSUING BANK",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Draweespecify",
+          "FieldName": "Drawee: specify",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsDate",
+          "FieldName": "Shipment Details: Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsPartialShipmentPermitted",
+          "FieldName": "Shipment Details: Partial Shipment Permitted",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsPartialShipmentProhibited",
+          "FieldName": "Shipment Details: Partial Shipment Prohibited",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsTranshipmentPermitted",
+          "FieldName": "Shipment Details: Transhipment Permitted",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsTranshipmentProhibited",
+          "FieldName": "Shipment Details: Transhipment Prohibited",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsPlaceoftakingincharge",
+          "FieldName": "Shipment Details: Place of taking in charge",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailspartofloadingairportofdeparture",
+          "FieldName": "Shipment Details: part of loading/airport of departure",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailspartofdischargeairportofdestination",
+          "FieldName": "Shipment Details: part of discharge/airport of destination",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailspartoffinaldestination",
+          "FieldName": "Shipment Details: part of final destination",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.DescriptionsofGoodsandorServices",
+          "FieldName": "Descriptions of Goods and/or Services",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Incoterms",
+          "FieldName": "Incoterms",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.HSCode",
+          "FieldName": "HS Code",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.DocumentsRequired",
+          "FieldName": "Documents Required",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Insurancewillbearrangedbyapplicant",
+          "FieldName": "Insurance: will be arranged by applicant",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Insurancewillbearrangedbybeneficiary",
+          "FieldName": "Insurance: will be arranged by beneficiary",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.AdditionalCondition",
+          "FieldName": "Additional Condition",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Chargesallbankingchargesoutsideindonesiaareforbeneficiary'saccount",
+          "FieldName": "Charges: all banking charges outside indonesia are for beneficiary's account",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ChargesallbankingchargesoutsideindonesiaareforApplicant'sAccount",
+          "FieldName": "Charges: all banking charges outside indonesia are for Applicant's Account",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.Chargesother",
+          "FieldName": "Charges: other",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.PeriodeForPresentation",
+          "FieldName": "Periode For Presentation",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ConfirmationInstructionConfirm",
+          "FieldName": "Confirmation Instruction: Confirm",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.ConfirmationInstructionWithout",
+          "FieldName": "Confirmation Instruction: Without",
+          "IsMultiValue": false,
+          "Type": "Boolean",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "Accounting.LetterCredit.LetterCredit.OtherInstructionInformation",
+          "FieldName": "Other Instruction/Information",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
           "SetValues": [],
           "Metadata": [
             {
@@ -349,7 +1187,7 @@
       "Group": "purchase",
       "Category": "doc",
       "Name": "purchase-order",
-      "OptionalUniqueIdentifier": null,
+      "OptionalUniqueIdentifier": "",
       "TypeField": {
         "FieldId": "purchase.doc.purchase-order.DocumentType",
         "FieldName": "Document Type"
@@ -363,12 +1201,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.date",
@@ -378,12 +1211,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.vendor-name",
@@ -393,12 +1221,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.vendor-cp",
@@ -408,12 +1231,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.vendor-address",
@@ -423,12 +1241,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.vendor-phone",
@@ -438,12 +1251,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.vendor-email",
@@ -453,12 +1261,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.ship-cp",
@@ -468,12 +1271,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.ship-address",
@@ -483,12 +1281,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.ship-phone",
@@ -498,12 +1291,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.ship-email",
@@ -513,12 +1301,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.items",
@@ -535,12 +1318,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "purchase.doc.purchase-order.items.item-name",
@@ -550,12 +1328,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "purchase.doc.purchase-order.items.item-desc",
@@ -565,12 +1338,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "purchase.doc.purchase-order.items.quantity",
@@ -580,12 +1348,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "purchase.doc.purchase-order.items.price",
@@ -595,21 +1358,11 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             }
           ],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-order.total",
@@ -619,12 +1372,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         }
       ]
     },
@@ -633,7 +1381,7 @@
       "Group": "purchase",
       "Category": "doc",
       "Name": "purchase-request",
-      "OptionalUniqueIdentifier": null,
+      "OptionalUniqueIdentifier": "",
       "TypeField": {
         "FieldId": "purchase.doc.purchase-request.DocumentType",
         "FieldName": "Document Type"
@@ -647,12 +1395,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.date",
@@ -662,12 +1405,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.vendor-name",
@@ -677,12 +1415,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.vendor-cp",
@@ -692,12 +1425,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.vendor-address",
@@ -707,12 +1435,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.vendor-phone",
@@ -722,12 +1445,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.vendor-email",
@@ -737,12 +1455,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.ship-cp",
@@ -752,12 +1465,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.ship-address",
@@ -767,12 +1475,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.ship-phone",
@@ -782,12 +1485,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.ship-email",
@@ -797,12 +1495,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.items",
@@ -819,12 +1512,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "purchase.doc.purchase-request.items.item-name",
@@ -834,12 +1522,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "purchase.doc.purchase-request.items.item-desc",
@@ -849,12 +1532,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "purchase.doc.purchase-request.items.qty",
@@ -864,12 +1542,7 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             },
             {
               "FieldId": "purchase.doc.purchase-request.items.price",
@@ -879,21 +1552,11 @@
               "DeriveFieldsFormat": "",
               "Components": [],
               "SetValues": [],
-              "Metadata": [
-                {
-                  "Key": "RequiresReference",
-                  "Value": "true"
-                }
-              ]
+              "Metadata": []
             }
           ],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         },
         {
           "FieldId": "purchase.doc.purchase-request.total",
@@ -903,12 +1566,7 @@
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "RequiresReference",
-              "Value": "true"
-            }
-          ]
+          "Metadata": []
         }
       ]
     }
@@ -918,7 +1576,8 @@
       "Name": "Accounting",
       "Categories": [
         "Incoming",
-        "Receipt"
+        "Receipt",
+        "LetterCredit"
       ]
     },
     {

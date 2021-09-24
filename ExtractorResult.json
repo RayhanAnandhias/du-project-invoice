@@ -1,0 +1,2656 @@
+{
+  "DocumentId": "Custom 10.jpg",
+  "ResultsVersion": 0,
+  "ResultsDocument": {
+    "Bounds": {
+      "StartPage": 0,
+      "PageCount": 1,
+      "TextStartIndex": 0,
+      "TextLength": 3480
+    },
+    "Language": "eng",
+    "DocumentGroup": "Accounting",
+    "DocumentCategory": "LetterCredit",
+    "DocumentTypeId": "Accounting.LetterCredit.LetterCredit",
+    "DocumentTypeName": "LetterCredit",
+    "DocumentTypeDataVersion": 0,
+    "DataVersion": 0,
+    "DocumentTypeSource": 0,
+    "DocumentTypeField": {
+      "Components": [],
+      "Value": "LetterCredit",
+      "Reference": {
+        "TextStartIndex": 0,
+        "TextLength": 0,
+        "Tokens": [
+          {
+            "TextStartIndex": 0,
+            "TextLength": 0,
+            "Page": 0,
+            "PageWidth": 2480.0,
+            "PageHeight": 3509.0,
+            "Boxes": [
+              [231.594, 212.6001, 105.2972, 25.0643],
+              [232.5966, 319.903, 153.433, 24.0617],
+              [232.5966, 475.3417, 83.2349, 24.0617],
+              [232.5966, 598.6898, 84.2378, 24.0617],
+              [231.594, 701.9814, 78.2206, 25.0643],
+              [231.594, 781.205, 87.2462, 25.0643],
+              [232.5966, 868.4513, 170.4811, 24.0617]
+            ]
+          }
+        ]
+      },
+      "DerivedFields": [],
+      "Confidence": 1.0,
+      "OperatorConfirmed": false,
+      "OcrConfidence": 0.969999969
+    },
+    "Fields": [
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.TujuanSurat",
+        "FieldName": "To",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "PT. Bank Rakyat Indonesia (Persero), Tbk",
+            "Reference": {
+              "TextStartIndex": 182,
+              "TextLength": 40,
+              "Tokens": [
+                {
+                  "TextStartIndex": 182,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[436.1186, 356.0049, 36.1019, 23.0591]]
+                },
+                {
+                  "TextStartIndex": 186,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[435.116, 395.1152, 60.1698, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 191,
+                  "TextLength": 6,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[435.116, 456.2879, 81.2293, 30.0771]]
+                },
+                {
+                  "TextStartIndex": 198,
+                  "TextLength": 9,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[434.1134, 538.52, 113.3198, 26.0669]]
+                },
+                {
+                  "TextStartIndex": 208,
+                  "TextLength": 10,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[434.1134, 653.8455, 113.3199, 31.0797]]
+                },
+                {
+                  "TextStartIndex": 219,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[434.1134, 768.1682, 48.1359, 27.0694]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9925016,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.969999969
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.CabangBank",
+        "FieldName": "Branch",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.RegisterNo",
+        "FieldName": "Register No",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": ".....CSFN-046/BRI/2021",
+            "Reference": {
+              "TextStartIndex": 2342,
+              "TextLength": 22,
+              "Tokens": [
+                {
+                  "TextStartIndex": 2342,
+                  "TextLength": 22,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[433.1109, 1455.10718, 254.719, 31.0797]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.997664332,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.55
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Date",
+        "FieldName": "Date",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.LCSKBDNNo",
+        "FieldName": "LC/SKBDN No",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "ILC0323200005080",
+            "Reference": {
+              "TextStartIndex": 2366,
+              "TextLength": 16,
+              "Tokens": [
+                {
+                  "TextStartIndex": 2366,
+                  "TextLength": 16,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[518.3294, 1464.13257, 216.6114, 25.0643]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9942654,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.93
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.DateofIssue",
+        "FieldName": "Date of Issue",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": ".05/11/20..",
+            "Reference": {
+              "TextStartIndex": 2383,
+              "TextLength": 11,
+              "Tokens": [
+                {
+                  "TextStartIndex": 2383,
+                  "TextLength": 11,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[557.4297, 1474.16089, 127.3595, 31.0797]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9944299,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.93
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ReceiverBankName",
+        "FieldName": "Receiver Bank: Bank Name",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "BANK BRI",
+            "Reference": {
+              "TextStartIndex": 281,
+              "TextLength": 8,
+              "Tokens": [
+                {
+                  "TextStartIndex": 281,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[643.6509, 581.6417, 65.184, 25.0642]]
+                },
+                {
+                  "TextStartIndex": 286,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[643.6509, 648.8314, 38.1076, 24.0617]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9892966,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.969999969
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ReceiverBankAddress",
+        "FieldName": "Receiver Bank: Address",
+        "FieldType": 4,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Jalan Blimbing Utara Kec.Blimbing Kab.Malang Jawa Timur [2]",
+            "Reference": {
+              "TextStartIndex": 309,
+              "TextLength": 61,
+              "Tokens": [
+                {
+                  "TextStartIndex": 309,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[685.7589, 426.203, 60.1698, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 315,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[685.7589, 490.3842, 99.2802, 30.0771]]
+                },
+                {
+                  "TextStartIndex": 324,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[685.7589, 590.6672, 64.1812, 27.0694]]
+                },
+                {
+                  "TextStartIndex": 330,
+                  "TextLength": 12,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[685.7589, 656.854, 147.4161, 30.0771]]
+                },
+                {
+                  "TextStartIndex": 343,
+                  "TextLength": 10,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[685.7589, 806.2758, 134.3793, 30.0771]]
+                },
+                {
+                  "TextStartIndex": 355,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[719.8463, 218.6171, 57.1613, 24.0617]]
+                },
+                {
+                  "TextStartIndex": 360,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[718.8438, 276.7813, 72.2038, 26.0669]]
+                },
+                {
+                  "TextStartIndex": 367,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[718.8438, 599.6927, 33.0934, 30.0771]]
+                }
+              ]
+            },
+            "DerivedFields": [
+              {
+                "FieldId": "Address Line 1",
+                "Value": "Jalan Blimbing Utara KecBlimbing KabMalang Jawa [2]"
+              },
+              { "FieldId": "City", "Value": "Timur" },
+              { "FieldId": "Country", "Value": "Indonesia" }
+            ],
+            "Confidence": 0.982611656,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.83
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Swiftcode",
+        "FieldName": "Receiver Bank: SWIFTCODE",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Irrevocable",
+        "FieldName": "Form of Documentary Credit: Irrevocable ",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 411,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 411,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[973.4969, 214.6057, 38.1076, 39.1003]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          },
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 425,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 425,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[973.4969, 450.2709, 40.1133, 40.1029]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.IrrevocableTransferrable",
+        "FieldName": "Form of Documentary Credit: Irrevocable Transferrable",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 425,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 425,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[973.4969, 450.2709, 40.1133, 40.1029]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicableRulesUniformCustomandPracticeforDocumentaryCreditLatestVersion(forLC)",
+        "FieldName": "Applicable Rules: Uniform Custom and Practice for Documentary Credit Latest Version (for LC)",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 559,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 559,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1054.7052, 214.6057, 38.1076, 39.1002]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9963762,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicableRulesPeraturanBankIndonesiaNo56PBI2003danperubahannya(forSKBDN)",
+        "FieldName": "Applicable Rules: Peraturan Bank Indonesia No. 5/6/PBI/2003 dan perubahannya (for SKBDN)",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 660,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 660,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1097.81567, 214.6057, 38.1076, 36.0927]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicableRulesLainnyaOthers",
+        "FieldName": "Applicable Rules: Lainnya/Others",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 762,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 762,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1136.916, 210.5944, 39.1104, 38.0977]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicableRulesLainnyaOthersValue",
+        "FieldName": "Applicable Rules: Lainnya/Others Value",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "[5]",
+            "Reference": {
+              "TextStartIndex": 808,
+              "TextLength": 3,
+              "Tokens": [
+                {
+                  "TextStartIndex": 808,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1147.94434, 755.1314, 29.0821, 23.0591]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9945897,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.89
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.DateandPlaceofExpiryDateofExpiry",
+        "FieldName": "Date and Place of Expiry: Date of Expiry",
+        "FieldType": 2,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "12-12-2020",
+            "Reference": {
+              "TextStartIndex": 851,
+              "TextLength": 10,
+              "Tokens": [
+                {
+                  "TextStartIndex": 851,
+                  "TextLength": 10,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1226.1449, 642.8144, 130.368, 28.072]]
+                }
+              ]
+            },
+            "DerivedFields": [
+              { "FieldId": "Year", "Value": "2020" },
+              { "FieldId": "Month", "Value": "12" },
+              { "FieldId": "Day", "Value": "12" }
+            ],
+            "Confidence": 0.9953194,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.DateandPlaceofExpiryatBeneficiary'sCountry",
+        "FieldName": "Date and Place of Expiry: at Beneficiary's Country",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 868,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 868,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1265.34534, 274.6151, 40.4341, 34.8894]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.96432817
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.DateandPlaceofExpiryatBRICounter",
+        "FieldName": "Date and Place of Expiry: at BRI Counter",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 892,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 892,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1262.23743, 562.588, 38.1075, 38.0978]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9958765,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicantName",
+        "FieldName": "Applicant: Name",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Tujuh Sembila",
+            "Reference": {
+              "TextStartIndex": 934,
+              "TextLength": 13,
+              "Tokens": [
+                {
+                  "TextStartIndex": 934,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1350.46375, 418.1804, 66.1868, 30.0771]]
+                },
+                {
+                  "TextStartIndex": 940,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1350.46375, 487.3756, 91.2576, 25.0643]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9815175,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.979999959
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicantAddress",
+        "FieldName": "Applicant: Address",
+        "FieldType": 4,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Gg. Terasana No.6A, Pasir Kaliki, Kec. Cicendo, Kota [8] Bandung, Jawa Barat 40171",
+            "Reference": {
+              "TextStartIndex": 981,
+              "TextLength": 82,
+              "Tokens": [
+                {
+                  "TextStartIndex": 981,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1393.57434, 407.1492, 40.1132, 29.0746]]
+                },
+                {
+                  "TextStartIndex": 985,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1393.57434, 449.2681, 102.2887, 25.0642]]
+                },
+                {
+                  "TextStartIndex": 994,
+                  "TextLength": 6,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1393.57434, 553.5625, 79.2236, 29.0746]]
+                },
+                {
+                  "TextStartIndex": 1001,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1392.57178, 633.7889, 58.1641, 26.0668]]
+                },
+                {
+                  "TextStartIndex": 1007,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1392.57178, 692.9559, 69.1953, 29.0746]]
+                },
+                {
+                  "TextStartIndex": 1015,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1393.57434, 763.1541, 49.1387, 26.0668]]
+                },
+                {
+                  "TextStartIndex": 1020,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1391.56921, 815.3013, 98.2774, 31.0797]]
+                },
+                {
+                  "TextStartIndex": 1029,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1393.57434, 915.5843, 53.15, 25.0642]]
+                },
+                {
+                  "TextStartIndex": 1034,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1392.57178, 971.7428, 34.0963, 29.0746]]
+                },
+                {
+                  "TextStartIndex": 1038,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1435.68225, 213.6029, 106.3001, 28.072]]
+                },
+                {
+                  "TextStartIndex": 1047,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1434.67969, 321.9086, 60.1699, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 1052,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1434.67969, 384.0841, 63.1783, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 1058,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1435.68225, 447.2624, 73.2066, 24.0617]]
+                }
+              ]
+            },
+            "DerivedFields": [
+              {
+                "FieldId": "Address Line 1",
+                "Value": "Gg Terasana No6A Pasir Kaliki Kec Cicendo Kota [8] Jawa Barat"
+              },
+              { "FieldId": "City", "Value": "Bandung" },
+              { "FieldId": "Country", "Value": "Indonesia" },
+              { "FieldId": "Zip Postal Code", "Value": "40171" }
+            ],
+            "Confidence": 0.993230462,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.89
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ApplicantContactPerson",
+        "FieldName": "Applicant: Contact Person",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Vania",
+            "Reference": {
+              "TextStartIndex": 1081,
+              "TextLength": 5,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1081,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1501.852, 392.1068, 66.1868, 25.0643]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9912786,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Applicanttelp",
+        "FieldName": "Applicant: telp",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "022-20505455",
+            "Reference": {
+              "TextStartIndex": 1096,
+              "TextLength": 14,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1096,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1500.84949, 569.6078, 61.1727, 30.0771]]
+                },
+                {
+                  "TextStartIndex": 1102,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1501.852, 631.7833, 115.3255, 26.0668]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9988387,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.909999967
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.BeneficiaryName",
+        "FieldName": "Beneficiary: Name",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Kusuma",
+            "Reference": {
+              "TextStartIndex": 1144,
+              "TextLength": 6,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1144,
+                  "TextLength": 6,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1586.068, 458.2936, 91.2576, 26.0669]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.997882664,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.979999959
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.BeneficiaryAddress",
+        "FieldName": "Beneficiary: Address",
+        "FieldType": 4,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Jalan Ajipati Jaya No 12 Kec. Banjarsari Kab.Magelang Jawa Tengah",
+            "Reference": {
+              "TextStartIndex": 1168,
+              "TextLength": 77,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1168,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1627.17346, 401.1322, 60.1698, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 1174,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1626.1709, 462.3049, 75.2123, 31.0797]]
+                },
+                {
+                  "TextStartIndex": 1182,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1627.17346, 538.52, 51.1444, 29.0745]]
+                },
+                {
+                  "TextStartIndex": 1187,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1627.17346, 591.67, 36.1019, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 1190,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1627.17346, 628.7748, 32.0906, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 1193,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1627.17346, 662.871, 50.1415, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 1198,
+                  "TextLength": 10,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1626.1709, 715.0182, 112.317, 31.0797]]
+                },
+                {
+                  "TextStartIndex": 1209,
+                  "TextLength": 12,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1627.17346, 830.3437, 160.4529, 29.0745]]
+                },
+                {
+                  "TextStartIndex": 1234,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1669.28149, 213.6029, 57.1614, 25.0642]]
+                },
+                {
+                  "TextStartIndex": 1239,
+                  "TextLength": 6,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1669.28149, 271.7671, 84.2378, 29.0746]]
+                }
+              ]
+            },
+            "DerivedFields": [
+              {
+                "FieldId": "Address Line 1",
+                "Value": "Jalan Ajipati Jaya No 12 Kec Banjarsari KabMagelang Jawa"
+              },
+              { "FieldId": "City", "Value": "Tengah" },
+              { "FieldId": "Country", "Value": "Indonesia" }
+            ],
+            "Confidence": 0.9968055,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.93
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&ToleranceCurrency",
+        "FieldName": "Currency, Amount & Tolerance: Currency",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Rupiah",
+            "Reference": {
+              "TextStartIndex": 1409,
+              "TextLength": 6,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1409,
+                  "TextLength": 6,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1752.49487, 333.9426, 85.2406, 28.072]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9844929,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.859999955
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&ToleranceAmount",
+        "FieldName": "Currency, Amount & Tolerance: Amount",
+        "FieldType": 1,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "745760.00",
+            "Reference": {
+              "TextStartIndex": 1424,
+              "TextLength": 11,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1424,
+                  "TextLength": 11,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1750.48975, 605.7097, 141.3991, 31.0797]]
+                }
+              ]
+            },
+            "DerivedFields": [{ "FieldId": "Value", "Value": "745760.00" }],
+            "Confidence": 0.9977628,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.93
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&Toleranceamountinwords",
+        "FieldName": "Currency, Amount & Tolerance: amount in words",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Tujuh empat tiga puluh lima tujuh ratus enam puluh Rupiah",
+            "Reference": {
+              "TextStartIndex": 1463,
+              "TextLength": 57,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1463,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1793.60034, 522.4747, 66.1868, 31.0797]]
+                },
+                {
+                  "TextStartIndex": 1469,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1796.608, 589.6644, 78.2208, 28.072]]
+                },
+                {
+                  "TextStartIndex": 1475,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1793.60034, 666.8823, 46.1302, 31.0797]]
+                },
+                {
+                  "TextStartIndex": 1480,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1793.60034, 715.0182, 65.184, 31.0797]]
+                },
+                {
+                  "TextStartIndex": 1486,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1791.59521, 784.2135, 50.1415, 29.0746]]
+                },
+                {
+                  "TextStartIndex": 1491,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1793.60034, 835.3578, 64.1812, 30.0772]]
+                },
+                {
+                  "TextStartIndex": 1497,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1795.60547, 899.539, 61.1727, 23.0591]]
+                },
+                {
+                  "TextStartIndex": 1503,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1840.72119, 213.6029, 65.184, 20.0514]]
+                },
+                {
+                  "TextStartIndex": 1508,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1836.71094, 281.7954, 67.1897, 29.0745]]
+                },
+                {
+                  "TextStartIndex": 1514,
+                  "TextLength": 6,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1836.71094, 350.9907, 82.2321, 29.0745]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9997489,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.179999992
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&Toleranceamounttolerance",
+        "FieldName": "Currency, Amount & Tolerance: amount tolerance",
+        "FieldType": 1,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&ToleranceNOTEXCEEDING",
+        "FieldName": "Currency, Amount & Tolerance: NOT EXCEEDING",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 1610,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1610,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1868.99377, 634.2101, 56.319, 45.7173]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.909090936,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.9500329
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Currency,Amount&Toleranceinwords",
+        "FieldName": "Currency, Amount & Tolerance: in words",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Availibilitybank",
+        "FieldName": "Availibility: bank",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Availibilityanybank",
+        "FieldName": "Availibility: any bank",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 1630,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1630,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1992.1095, 843.3806, 39.1104, 37.0952]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.AvailibilityAt-SightbyPayment",
+        "FieldName": "Availibility: At-Sight by Payment",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 1642,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1642,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2035.22, 215.6086, 38.1076, 38.0977]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.AvailibilitybyNegotiation",
+        "FieldName": "Availibility: by Negotiation",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 1667,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1667,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2036.22266, 561.5851, 40.1132, 37.095]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.AvailibilityAt-termbyNegotiation",
+        "FieldName": "Availibility: At-term by Negotiation",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 1690,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1690,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2076.32544, 214.6057, 38.1076, 37.0952]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.AvailibilitybyAcceptanceDefferedPayment",
+        "FieldName": "Availibility: by Acceptance/Deffered Payment",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 1768,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1768,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2076.32544, 563.5908, 37.1047, 37.0952]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Availibilitytermsspecify",
+        "FieldName": "Availibility: terms specify",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.DraweeISSUINGBANK",
+        "FieldName": "Drawee: ISSUING BANK",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 1749,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1749,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2203.652, 208.5888, 38.1076, 37.095]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Draweespecify",
+        "FieldName": "Drawee: specify",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsDate",
+        "FieldName": "Shipment Details: Date",
+        "FieldType": 2,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "_01/12/2020",
+            "Reference": {
+              "TextStartIndex": 1911,
+              "TextLength": 11,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1911,
+                  "TextLength": 11,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2330.97852, 491.387, 146.4133, 30.0771]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.997738361,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.75
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsPartialShipmentPermitted",
+        "FieldName": "Shipment Details: Partial Shipment Permitted",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 1941,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1941,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2366.0686, 410.1577, 39.1104, 36.0925]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9847755,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          },
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 1999,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1999,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2404.16626, 401.1322, 39.1104, 36.0925]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.906201839,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsPartialShipmentProhibited",
+        "FieldName": "Shipment Details: Partial Shipment Prohibited",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 1970,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1970,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2365.066, 712.0097, 40.1133, 40.103]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsTranshipmentPermitted",
+        "FieldName": "Shipment Details: Transhipment Permitted",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 1999,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1999,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2404.16626, 401.1322, 39.1104, 36.0925]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsTranshipmentProhibited",
+        "FieldName": "Shipment Details: Transhipment Prohibited",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 2011,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 2011,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2402.16113, 656.854, 39.1105, 40.1028]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9965014,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          },
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 1970,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 1970,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2365.066, 712.0097, 40.1133, 40.103]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.903112531,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailsPlaceoftakingincharge",
+        "FieldName": "Shipment Details: Place of taking in charge",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailspartofloadingairportofdeparture",
+        "FieldName": "Shipment Details: part of loading/airport of departure",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Airport in Indonesia",
+            "Reference": {
+              "TextStartIndex": 2135,
+              "TextLength": 20,
+              "Tokens": [
+                {
+                  "TextStartIndex": 2135,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2497.40552, 732.0663, 85.2406, 30.0772]]
+                },
+                {
+                  "TextStartIndex": 2143,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2497.40552, 818.3098, 25.0707, 26.0669]]
+                },
+                {
+                  "TextStartIndex": 2146,
+                  "TextLength": 9,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2497.40552, 843.3805, 112.317, 26.0669]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.99531,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailspartofdischargeairportofdestination",
+        "FieldName": "Shipment Details: part of discharge/airport of destination",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Soekarno Hatta, Indonesia",
+            "Reference": {
+              "TextStartIndex": 2156,
+              "TextLength": 25,
+              "Tokens": [
+                {
+                  "TextStartIndex": 2156,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2539.51343, 754.1286, 109.3085, 26.0669]]
+                },
+                {
+                  "TextStartIndex": 2165,
+                  "TextLength": 6,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2539.51343, 862.4343, 73.2066, 29.0747]]
+                },
+                {
+                  "TextStartIndex": 2172,
+                  "TextLength": 9,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2539.51343, 936.6437, 112.3171, 26.0669]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.992738545,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.979999959
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ShipmentDetailspartoffinaldestination",
+        "FieldName": "Shipment Details: part of final destination",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Juanda, Indonesia",
+            "Reference": {
+              "TextStartIndex": 2212,
+              "TextLength": 17,
+              "Tokens": [
+                {
+                  "TextStartIndex": 2212,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2580.619, 578.6332, 88.2491, 29.0744]]
+                },
+                {
+                  "TextStartIndex": 2220,
+                  "TextLength": 9,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2580.619, 669.8908, 110.3114, 26.0668]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.993421257,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.DescriptionsofGoodsandorServices",
+        "FieldName": "Descriptions of Goods and/or Services",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "of Goods Silicon Metal (S:441) Quantity 340 MT Unit Price USD 2.122.00/MT Contract No. LIPM -254/2021 H.S Code No.",
+            "Reference": {
+              "TextStartIndex": 2444,
+              "TextLength": 120,
+              "Tokens": [
+                {
+                  "TextStartIndex": 2444,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[684.7563, 1779.02148, 25.0707, 27.0694]]
+                },
+                {
+                  "TextStartIndex": 2447,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[683.7537, 1802.08655, 62.1755, 28.072]]
+                },
+                {
+                  "TextStartIndex": 2455,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[682.7512, 1872.28467, 64.1811, 28.072]]
+                },
+                {
+                  "TextStartIndex": 2463,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[682.7512, 1938.47144, 61.1727, 29.0746]]
+                },
+                {
+                  "TextStartIndex": 2469,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[681.7486, 1999.64417, 77.2178, 32.0823]]
+                },
+                {
+                  "TextStartIndex": 2477,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[718.8438, 1899.36108, 90.2548, 31.0797]]
+                },
+                {
+                  "TextStartIndex": 2486,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[719.8463, 1998.64136, 40.1132, 23.0592]]
+                },
+                {
+                  "TextStartIndex": 2490,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[717.8411, 2037.75171, 45.1274, 26.0669]]
+                },
+                {
+                  "TextStartIndex": 2493,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[751.9286, 1787.04407, 46.1303, 27.0694]]
+                },
+                {
+                  "TextStartIndex": 2498,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[751.9286, 1832.17139, 54.1529, 27.0694]]
+                },
+                {
+                  "TextStartIndex": 2506,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[750.926, 1898.35828, 48.1359, 29.0746]]
+                },
+                {
+                  "TextStartIndex": 2510,
+                  "TextLength": 11,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[752.9312, 1945.49133, 136.3849, 28.072]]
+                },
+                {
+                  "TextStartIndex": 2522,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[788.0212, 1769.996, 89.2519, 26.0668]]
+                },
+                {
+                  "TextStartIndex": 2531,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[787.0186, 1860.25073, 34.0962, 27.0694]]
+                },
+                {
+                  "TextStartIndex": 2537,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[787.0186, 1908.3866, 60.1698, 27.0694]]
+                },
+                {
+                  "TextStartIndex": 2542,
+                  "TextLength": 9,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[788.0212, 1969.5592, 108.3058, 27.0694]]
+                },
+                {
+                  "TextStartIndex": 2552,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[820.1035, 1824.1488, 44.1245, 28.0719]]
+                },
+                {
+                  "TextStartIndex": 2556,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[822.1086, 1867.27051, 47.133, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 2561,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[822.1086, 1914.40356, 35.099, 25.0643]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.7066951,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.55
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Incoterms",
+        "FieldName": "Incoterms",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.HSCode",
+        "FieldName": "HS Code",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.DocumentsRequired",
+        "FieldName": "Documents Required",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "see attachment [4] ...Dokumen Tertulis..",
+            "Reference": {
+              "TextStartIndex": 638,
+              "TextLength": 122,
+              "Tokens": [
+                {
+                  "TextStartIndex": 638,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1071.7489, 1122.16736, 35.0991, 17.0437]]
+                },
+                {
+                  "TextStartIndex": 642,
+                  "TextLength": 10,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1066.736, 1157.26648, 109.3085, 23.0592]]
+                },
+                {
+                  "TextStartIndex": 653,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1066.736, 1265.57214, 30.085, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 739,
+                  "TextLength": 10,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1106.83887, 1122.16736, 108.3058, 23.0592]]
+                },
+                {
+                  "TextStartIndex": 750,
+                  "TextLength": 10,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1106.83887, 1230.47314, 79.2236, 22.0565]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.706818938,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.859999955
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Insurancewillbearrangedbyapplicant",
+        "FieldName": "Insurance: will be arranged by applicant",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 2611,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 2611,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1300.33521, 1112.13916, 38.1075, 38.0978]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Insurancewillbearrangedbybeneficiary",
+        "FieldName": "Insurance: will be arranged by beneficiary",
+        "FieldType": 7,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.AdditionalCondition",
+        "FieldName": "Additional Condition",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "1. All documents must be presented in Bahasa Indonesia English- [10] 2. [11] 3. [12] 4. [13]",
+            "Reference": {
+              "TextStartIndex": 1224,
+              "TextLength": 1969,
+              "Tokens": [
+                {
+                  "TextStartIndex": 3120,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1587.07056, 1123.17029, 23.0651, 24.0618]]
+                },
+                {
+                  "TextStartIndex": 3123,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1586.068, 1148.241, 32.0905, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 3127,
+                  "TextLength": 9,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1585.06543, 1182.33728, 128.3623, 26.0669]]
+                },
+                {
+                  "TextStartIndex": 3137,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1587.07056, 1311.70239, 60.1698, 24.0618]]
+                },
+                {
+                  "TextStartIndex": 3142,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1586.068, 1372.875, 32.0906, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 3145,
+                  "TextLength": 9,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1586.068, 1405.96851, 116.3282, 30.0771]]
+                },
+                {
+                  "TextStartIndex": 3155,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1587.07056, 1524.30249, 24.0679, 24.0618]]
+                },
+                {
+                  "TextStartIndex": 3158,
+                  "TextLength": 6,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1586.068, 1550.3761, 83.2349, 25.0643]]
+                },
+                {
+                  "TextStartIndex": 3165,
+                  "TextLength": 9,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1585.06543, 1635.6167, 110.3113, 27.0695]]
+                },
+                {
+                  "TextStartIndex": 3177,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1585.06543, 1763.979, 92.2604, 30.0771]]
+                },
+                {
+                  "TextStartIndex": 3189,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1585.06543, 1876.296, 49.1387, 30.0771]]
+                },
+                {
+                  "TextStartIndex": 1224,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1627.17346, 1121.16455, 24.068, 26.0669]]
+                },
+                {
+                  "TextStartIndex": 1229,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1630.18115, 1868.27332, 40.1133, 24.0618]]
+                },
+                {
+                  "TextStartIndex": 1306,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1669.28149, 1122.16736, 24.068, 26.0668]]
+                },
+                {
+                  "TextStartIndex": 1311,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1671.28662, 1867.27051, 40.1133, 25.0642]]
+                },
+                {
+                  "TextStartIndex": 1388,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1711.3894, 1121.16455, 24.068, 26.0669]]
+                },
+                {
+                  "TextStartIndex": 1393,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1713.39465, 1868.27332, 40.1133, 25.0642]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.998715341,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.87
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Chargesallbankingchargesoutsideindonesiaareforbeneficiary'saccount",
+        "FieldName": "Charges: all banking charges outside indonesia are for beneficiary's account",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 3203,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 3203,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1991.107, 1119.15894, 41.1161, 36.0925]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9464286,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          },
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 3273,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 3273,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2028.202, 1120.16174, 39.1104, 37.0951]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.8596491,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ChargesallbankingchargesoutsideindonesiaareforApplicant'sAccount",
+        "FieldName": "Charges: all banking charges outside indonesia are for Applicant's Account",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 3273,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 3273,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2028.202, 1120.16174, 39.1104, 37.0951]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          },
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 3203,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 3203,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[1991.107, 1119.15894, 41.1161, 36.0925]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.8214286,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.Chargesother",
+        "FieldName": "Charges: other",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Expiry [5]",
+            "Reference": {
+              "TextStartIndex": 800,
+              "TextLength": 11,
+              "Tokens": [
+                {
+                  "TextStartIndex": 800,
+                  "TextLength": 11,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [
+                    [1183.0343, 415.1718, 76.2151, 31.0797],
+                    [1147.94434, 755.1314, 29.0821, 23.0591]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.8916983,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.89
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.PeriodeForPresentation",
+        "FieldName": "Periode For Presentation",
+        "FieldType": 0,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "days after",
+            "Reference": {
+              "TextStartIndex": 3385,
+              "TextLength": 10,
+              "Tokens": [
+                {
+                  "TextStartIndex": 3385,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2208.66479, 1261.56091, 55.1556, 30.0772]]
+                },
+                {
+                  "TextStartIndex": 3390,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2208.66479, 1318.72217, 57.1614, 25.0645]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9926202,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ConfirmationInstructionConfirm",
+        "FieldName": "Confirmation Instruction: Confirm",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "No",
+            "Reference": {
+              "TextStartIndex": 3422,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 3422,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2319.95044, 1120.16174, 40.1133, 39.1001]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.98999995
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.ConfirmationInstructionWithout",
+        "FieldName": "Confirmation Instruction: Without",
+        "FieldType": 7,
+        "IsMissing": false,
+        "DataSource": 0,
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Yes",
+            "Reference": {
+              "TextStartIndex": 3432,
+              "TextLength": 1,
+              "Tokens": [
+                {
+                  "TextStartIndex": 3432,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 2480.0,
+                  "PageHeight": 3509.0,
+                  "Boxes": [[2324.061, 1257.389, 40.4341, 34.8894]]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 1.0,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 0.961950064
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      },
+      {
+        "FieldId": "Accounting.LetterCredit.LetterCredit.OtherInstructionInformation",
+        "FieldName": "Other Instruction/Information",
+        "FieldType": 0,
+        "IsMissing": true,
+        "DataSource": 0,
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false
+      }
+    ]
+  },
+  "ExtractorPayloads": [
+    {
+      "Id": "LetterCredit",
+      "Payload": "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"
+    }
+  ]
+}
